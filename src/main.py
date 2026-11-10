@@ -5,7 +5,8 @@ from data_loader import load_teams_csv
 def main():
     # loads and validates the team data from data/teams.cv
     try:
-        teams = load_teams_csv("data/teams.csv")
+        #teams = load_teams_csv("data/teams.csv")
+        teams = load_teams_csv("data/32Round_WC2026.csv",expected_count=32)
 
         print(f"Successfully loaded {len(teams)} teams.")
 
