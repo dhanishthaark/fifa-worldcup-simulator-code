@@ -6,7 +6,7 @@ from pathlib import Path
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 TEAM_FILE = DATA_DIR / "32Round_WC2026.csv"
-RESULTS_FILE = DATA_DIR / "historical_results.csv"
+RESULTS_FILE = DATA_DIR / "historicalmatchresults.csv"
 OUTPUT_FILE = DATA_DIR / "32Round_WC2026_rated.csv"
 
 INITIAL_RATING = 1500
